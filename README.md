@@ -4,27 +4,22 @@ A facial expression–based authentication system where users log in using emoji
 
 ---
 
-## 🚀 Features
+## 🚀 Inspiration  
+Typing passwords feels outdated — what if you could just **smile to unlock**?
 
-- 🔒 Facial expression-based **user registration and authentication**
-- 🎭 Detects emoji-like expressions using webcam
-- 🌐 Flask backend with HTML + JavaScript frontend
-- 💾 Stores user expression "passwords" locally in JSON
-- 🧠 Uses MediaPipe for real-time facial expression detection
+We wanted to replace the **traditional alphanumeric passwords** with a more **natural, fun, and secure** method — using your own **facial expressions** as a key! EmojiLock brings a playful twist to authentication by letting users **register and login using emoji-like expressions**.
 
 ---
 
-## 📁 Project Structure
+## ✨ What it Does
 
-Emoji-Expression-Locker/
-├── main.py # Flask server and routes
-├── register_user.py # Registers new user expressions
-├── authenticate_user.py # Authenticates expressions during login
-├── expression_detection.py # Detects facial expressions from images
-├── static/
-│ └── index.html # Frontend UI (camera + buttons)
-├── user_data/
-│ └── passwords.json # Stores username → expression mappings
-├── requirements.txt # Python dependencies
-└── README.md # This file
+EmojiLock enables users to:
+- ✅ **Register** by making a unique facial expression (e.g., 😊, 😮, 😡).
+- ✅ **Authenticate** by repeating that same expression later — no typing required!
+- ✅ **Run locally** in a terminal — no need for any web frontend.
+- ✅ **Visual feedback** through webcam to guide expression capture.
 
+🔐 Example Flow:
+User: 😁 (Registers with a smile)
+Later...
+User: 😁 (Smiles again → Access Granted)
