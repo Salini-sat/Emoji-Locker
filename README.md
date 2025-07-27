@@ -16,3 +16,15 @@ A facial expression–based authentication system where users log in using emoji
 
 ## 📁 Project Structure
 
+Emoji-Expression-Locker/
+├── main.py # Flask server and routes
+├── register_user.py # Registers new user expressions
+├── authenticate_user.py # Authenticates expressions during login
+├── expression_detection.py # Detects facial expressions from images
+├── static/
+│ └── index.html # Frontend UI (camera + buttons)
+├── user_data/
+│ └── passwords.json # Stores username → expression mappings
+├── requirements.txt # Python dependencies
+└── README.md # This file
+
